@@ -4,5 +4,11 @@
         "image": "discover.png",
         "description": "Programa gratuito para iniciantes. Na plataforma você terá acesso a mais de 500 aulas gratuitas para você construir os alicerces necessários para decolar em programação.",
         "link": "https://www.rocketseat.com.br/discover"
+    },
+    {
+        "title": "Curso de Node.js completo",
+        "image": "devlab-nodejs.webp",
+        "description": "Aprenda na prática como criar e rodar micro-serviços na cloud utilizando Node.js com Typescript seguindo as melhores práticas de desenvolvimento em um curso que vai do desenvolvimento a produção e totalmente grátis.",
+        "link": "https://www.youtube.com/watch?v=W2ld5xRS3cY&list=PLz_YTBuxtxt6_Zf1h-qzNsvVt46H8ziKh&index=2"
     }
 ]
