@@ -9,9 +9,32 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <style>
+    .darkMode {
+      height: 18px;
+      width: 18px;
+      position: absolute;
+      left: 97%;
+      top: 5%;
+    }
+
+    .dark-mode {
+      background-color: rgba(0, 0, 0, 0.76);
+      color: rgb(161, 161, 161);
+    }
+  </style>
 </head>
 
 <body>
+  <header>
+    <a href="javascript:darkMode()">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/108/108931.png"
+        alt="modo escuro"
+        class="darkMode"
+      />
+    </a>
+  </header>
   <main>
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
