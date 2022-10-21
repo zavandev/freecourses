@@ -22,3 +22,8 @@ function getCard(course) {
                 </div>
             </div>`;
 }
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
